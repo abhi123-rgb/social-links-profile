@@ -23,10 +23,7 @@
 }
 
 body {
-    font-family: "Inter";
-}
-
-.container {
+    font-family: "Inter", Helvetica, sans-serif;
     background-color: var(--grey-900);
     min-height: 100vh;
     display: flex;
@@ -34,12 +31,14 @@ body {
     justify-content: center;
 }
 
+
+
 .card {
-    max-width: 360px;
+    max-width: 350px;
     width: 90%;
     background-color: var(--grey-800);
     text-align: center;
-    padding: 30px;
+    padding: 25px;
     border-radius: 12px;
 }
 
@@ -51,16 +50,16 @@ body {
 
 .name {
     color: var(--white);
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 600;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.2rem;
 }
 
 .loc {
     font-size: var(--para-fontsize);
     color: var(--green);
     font-weight: 600;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.2rem;
 }
 
 .title {
@@ -72,26 +71,24 @@ body {
 
 ul li{
     list-style-type: none;
-  
-    
+    margin: 12px 0;
 }
 
-.link:last-child {
+ul li:last-child {
     margin-bottom: 0px;
 }
     
-ul li .link:hover{
+.link:hover{
     background-color: var(--green);
     color:var(--grey-900);
 }
 
-ul li .link {
+.link {
     color: var(--white);
     display: block;
      background-color: var(--grey-700);
     padding: 12px 0;
     border-radius: 6px;
-    margin: 14px 0;
     text-decoration: none;
     font-size: var(--para-fontsize);
     font-weight: 600;
